@@ -32,7 +32,6 @@ body {
     font: 14px/24px Helvetica, Arial, sans-serif;
     color: #333;
 }
-
 h1, h2 {
     font-size: 26px;
     line-height: 36px;
@@ -41,11 +40,9 @@ h3 {
     font-size: 16px;
     line-height: 24px;
 }
-
 p {
     margin-bottom: 24px;
 }
-
 a { 
     color: #444;
 }
@@ -56,6 +53,13 @@ a:hover {
 p a { 
     font-weight: bold;
     text-decoration: underline;
+}
+abbr {
+    display: inline-block;
+    border-bottom: 1px dashed;
+    line-height: 1.1;
+    margin-bottom: -1px;
+    cursor: help;
 }
 /*  Layout 
     ------------------ */
