@@ -1,0 +1,108 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+a { text-decoration: none; }
+p a, a:hover { text-decoration: underline; }
+
+a img { border: 0; }
+
+figure { position: relative; }
+figure img {width: 100%;}
+
+ul, ol, dl { margin-left: 2em; }
+
+
+/*  Typography presets
+    ------------------ */
+
+body {
+    font: 14px/24px Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+h3 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+/*  Layout 
+    ------------------ */
+body {
+    width: 600px;
+    margin: 60px auto;
+    overflow-x: hidden;
+}
+header {
+    text-indent: -9999em;
+    background: url(../images/header.png) left top no-repeat;
+    height: 100px;
+}
+aside {
+    float: right;
+    width: 180px;
+}
+article {
+    width: 380px;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a { 
+    color: inherit;
+}
+nav ul li:before { 
+    content: "→ ";
+}
+
+
+
+
+#github {
+    position: absolute;
+    top: 40px;
+    right: -65px;
+    height: 30px;
+    width: 250px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#github a {
+    display: block;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 10px;
+}
+#github a:hover { 
+    background-color: #444;
+    text-decoration: none;
+}
+#github:before { content: ""; }
