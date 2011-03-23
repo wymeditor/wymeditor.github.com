@@ -68,7 +68,10 @@ body {
     margin: 60px auto;
     overflow-x: hidden;
 }
-header {
+header h1 { 
+    margin: 0;
+}
+header h1 a {
     text-indent: -9999em;
     background: url(../images/header.png) left top no-repeat;
     height: 90px;
