@@ -31,16 +31,18 @@ ul, ol, dl { margin-left: 2em; }
 body {
     font: 14px/24px Helvetica, Arial, sans-serif;
     color: #333;
+    min-height: 500px;
 }
 h1, h2 {
     font-size: 26px;
-    line-height: 36px;
+    line-height: 48px;
 }
 h3 {
     font-size: 16px;
     line-height: 24px;
+    margin-top: 24px;
 }
-p {
+p, ol, ul {
     margin-bottom: 24px;
 }
 a { 
